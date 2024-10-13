@@ -3,5 +3,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "puppeteer": "^23.5.3"
+  },
+  "scripts": {
+    "postinstall": "puppeteer install"
   }
 }
