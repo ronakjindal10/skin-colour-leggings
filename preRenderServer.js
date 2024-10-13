@@ -46,7 +46,7 @@ app.get('/render', async (req, res) => {
 // Keep the service alive by sending a request every 14 minutes
 setInterval(async () => {
   try {
-    const response = await fetch(`https://https://skin-colour-leggings.onrender.com/render?url=https://example.com`);
+    const response = await fetch(`https://skin-colour-leggings.onrender.com/render?url=https://example.com`);
     console.log(`Keep-alive request sent, response status: ${response.status}`);
   } catch (error) {
     console.error('Error sending keep-alive request:', error);
